@@ -1,13 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./views/**/*.ejs", // Keep your original content path
-    "./node_modules/flowbite/**/*.js" // Add flowbite content path
-  ],
+  content: ["./views//*.{ejs}"],
   theme: {
-    extend: {},
+  extend: {},
   },
   plugins: [
-    require('flowbite/plugin'), // Add flowbite plugin
-  ],
+    
+  {
+  tailwindcss: {},
+  autoprefixer: {},
+  },
+  ],
   };
