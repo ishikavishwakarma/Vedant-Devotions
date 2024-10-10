@@ -1,11 +1,576 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>video</h1>
-</body>
-</html>
+<% include ./partials/header.ejs %>
+<section
+  class="max-w-full h-fit p-6 bg-zinc-200 border border-gray-200 rounded-lg shadow"
+>
+  <div class="flex md:px-10 pt-3 justify-between">
+    <a href="#">
+      <h5
+        class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-black"
+      >
+        Trending Videos
+      </h5>
+    </a>
+
+    
+  </div>
+  <div class="grid p-4 grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-5">
+    <div
+    class="swiper-slide"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="RdVfnDMCINw"
+  >
+    <div
+      class="relative bg-indigo-50 rounded-2xl h-60 flex justify-center items-center cursor-pointer overflow-hidden"
+    >
+      <!-- Thumbnail Image -->
+      <img
+        src="https://img.youtube.com/vi/RdVfnDMCINw/hqdefault.jpg"
+        alt="Video 1 Thumbnail"
+        class="object-cover w-full h-full"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="swiper-slide"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="eYgYvQFs6G8"
+  >
+    <div
+      class="relative bg-indigo-50 rounded-2xl h-60 flex justify-center items-center cursor-pointer overflow-hidden"
+    >
+      <img
+        src="https://img.youtube.com/vi/eYgYvQFs6G8/hqdefault.jpg"
+        alt="Video 1 Thumbnail"
+        class="object-cover w-full h-full"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="swiper-slide"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="TpOsJ7cHd9w"
+  >
+    <div
+      class="relative bg-indigo-50 rounded-2xl h-60 flex justify-center items-center cursor-pointer"
+    >
+      <!-- YouTube Thumbnail -->
+      <img
+        src="https://img.youtube.com/vi/TpOsJ7cHd9w/hqdefault.jpg"
+        class="rounded-2xl object-cover h-full w-full"
+        alt="Slide 1"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="swiper-slide"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="5gQ0qZo1-Nc"
+  >
+    <div
+      class="bg-indigo-50 relative rounded-2xl h-60 flex justify-center items-center cursor-pointer overflow-hidden"
+    >
+      <img
+        src="https://img.youtube.com/vi/5gQ0qZo1-Nc/hqdefault.jpg"
+        alt="Video 1 Thumbnail"
+        class="object-cover w-full h-full"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="swiper-slide"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="J2RX8rGwZtg"
+  >
+    <div
+      class="bg-indigo-50 relative rounded-2xl h-60 flex justify-center items-center cursor-pointer"
+    >
+      <!-- YouTube Thumbnail -->
+      <img
+        src="https://img.youtube.com/vi/J2RX8rGwZtg/hqdefault.jpg"
+        class="rounded-2xl object-cover h-full w-full"
+        alt="Slide 1"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="swiper-slide"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="zFr6E5H5sRg"
+  >
+    <div
+      class="bg-indigo-50 relative rounded-2xl h-60 flex justify-center items-center cursor-pointer overflow-hidden"
+    >
+      <img
+        src="https://img.youtube.com/vi/zFr6E5H5sRg/hqdefault.jpg"
+        alt="Video 1 Thumbnail"
+        class="object-cover w-full h-full"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+ 
+  </div>
+ 
+</section>
+
+<section
+  class="max-w-full h-fit p-6 bg-zinc-200 border border-gray-200 rounded-lg shadow shadow-zinc-600"
+>
+  <div class="flex md:px-10 pt-3 justify-between">
+    <a href="#">
+      <h5
+        class="mb-2 text-2xl font-bold tracking-tight text-black dark:text-black"
+      >
+        Trending Shorts
+      </h5>
+    </a>
+
+  </div>
+  <div class="grid p-4 grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-5">
+    <div
+    class="swiper-slide overflow-hidden"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="G3p6MCQDK2s"
+  >
+    <div
+      class="relative bg-indigo-50 rounded-2xl h-60 flex justify-center items-center cursor-pointer overflow-hidden"
+    >
+      <!-- Thumbnail Image -->
+      <img
+        src="https://img.youtube.com/vi/G3p6MCQDK2s/hqdefault.jpg"
+        alt="Video 1 Thumbnail"
+        class="object-cover w-full h-full"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button2">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="swiper-slide"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="G3p6MCQDK2s"
+  >
+    <div
+      class="relative bg-indigo-50 rounded-2xl h-60 flex justify-center items-center cursor-pointer overflow-hidden"
+    >
+      <img
+        src="https://img.youtube.com/vi/G3p6MCQDK2s/hqdefault.jpg"
+        alt="Video 1 Thumbnail"
+        class="object-cover w-full h-full"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button2">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="swiper-slide overflow-hidden"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="KfroyqYB3_s"
+  >
+    <div
+      class="relative bg-indigo-50 rounded-2xl h-60 flex justify-center items-center cursor-pointer overflow-hidden"
+    >
+      <!-- Thumbnail Image -->
+      <img
+        src="https://img.youtube.com/vi/KfroyqYB3_s/hqdefault.jpg"
+        alt="Video 1 Thumbnail"
+        class="object-cover w-full h-full"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button2">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="swiper-slide"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="MpB9x2h8rt0"
+  >
+    <div
+      class="bg-indigo-50 relative rounded-2xl h-60 flex justify-center items-center cursor-pointer overflow-hidden"
+    >
+      <img
+        src="https://img.youtube.com/vi/MpB9x2h8rt0/hqdefault.jpg"
+        alt="Video 1 Thumbnail"
+        class="object-cover w-full h-full"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button2">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="swiper-slide"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="NJcG_QaE6XQ"
+  >
+    <div
+      class="bg-indigo-50 relative rounded-2xl h-60 flex justify-center items-center cursor-pointer overflow-hidden"
+    >
+      <img
+        src="https://img.youtube.com/vi/NJcG_QaE6XQ/hqdefault.jpg"
+        alt="Video 1 Thumbnail"
+        class="object-cover w-full h-full"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button2">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="swiper-slide"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="wZsM302HyJk"
+  >
+    <div
+      class="bg-indigo-50 relative rounded-2xl h-60 flex justify-center items-center cursor-pointer overflow-hidden"
+    >
+      <img
+        src="https://img.youtube.com/vi/wZsM302HyJk/hqdefault.jpg"
+        alt="Video 1 Thumbnail"
+        class="object-cover w-full h-full"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button2">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="swiper-slide"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="QA3AU7mypwQ"
+  >
+    <div
+      class="bg-indigo-50 relative overflow-hidden rounded-2xl h-60 flex justify-center items-center cursor-pointer"
+    >
+      <!-- YouTube Thumbnail -->
+      <img
+        src="https://img.youtube.com/vi/QA3AU7mypwQ/hqdefault.jpg"
+        class="rounded-2xl object-cover h-full w-full"
+        alt="Slide 1"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button2">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="swiper-slide"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="Dr6CgU90JkU"
+  >
+    <div
+      class="bg-indigo-50 relative rounded-2xl h-60 flex justify-center items-center cursor-pointer overflow-hidden"
+    >
+      <img
+        src="https://img.youtube.com/vi/Dr6CgU90JkU/hqdefault.jpg"
+        alt="Video 1 Thumbnail"
+        class="object-cover w-full h-full"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button2">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="swiper-slide"
+    data-modal-target="static-modal"
+    data-modal-toggle="static-modal"
+    data-video-id="SZ_Tn8kJeao"
+  >
+    <div
+      class="bg-indigo-50 overflow-hidden relative rounded-2xl h-60 flex justify-center items-center cursor-pointer"
+    >
+      <!-- YouTube Thumbnail -->
+      <img
+        src="https://img.youtube.com/vi/SZ_Tn8kJeao/hqdefault.jpg"
+        class="rounded-2xl object-cover h-full w-full"
+        alt="Slide 1"
+      />
+
+      <!-- Play Icon Overlay -->
+      <div
+        class="absolute inset-0 transition-all flex justify-center items-center bg-black bg-opacity-30"
+      >
+        <button class="button2">
+          <svg
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="26px"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+ 
+  </div>
+  
+</section>
+<% include ./partials/footer.ejs %>
